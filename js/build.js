@@ -1104,7 +1104,7 @@ if(config.logs) {
       this.collisionBox = null;
       this.currentFrame = 0;
       this.clock = new THREE.Clock();
-      this.anim_speed = 0.10; // lower is faster
+      const this.anim_speed = 0.10; // lower is faster
       this.block_fall_fast = false;
       this.jump = {
           "is_active": false,
